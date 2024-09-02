@@ -1,0 +1,117 @@
+/* General Reset and Styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background: #2c3e50; /* Navy Blue */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Navigation Styles */
+nav {
+  background: #34495e; /* Darker Navy */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #2c3e50; /* Navy Blue */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Skills Section */
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#skills ul li {
+  background: #34495e; /* Darker Navy */
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+/* Projects Section */
+.project {
+  background: #ecf0f1; /* Light Gray */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #2c3e50; /* Navy Blue */
+}
+
+/* Footer Styles */
+footer {
+  background: #2c3e50; /* Navy Blue */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #skills ul {
+    flex-direction: column;
+  }
+}

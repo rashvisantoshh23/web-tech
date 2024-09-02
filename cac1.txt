@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rashvi Santosh - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Rashvi Santosh</h1>
+      <p>Aspiring Data Scientist</p>
+    </div>
+  </header>
+
+  <!-- Navigation Section -->
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Rashvi Santosh, an aspiring data scientist with a passion for uncovering insights from data and making data-driven decisions. I am enthusiastic about machine learning, statistical analysis, and data visualization.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>R</li>
+          <li>Machine Learning</li>
+          <li>Data Visualization</li>
+          <li>SQL</li>
+          <li>Data Analysis</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Data Analysis on Sales Data</h3>
+          <p>A comprehensive analysis of sales data to identify key trends and insights to help improve sales strategy and customer engagement.</p>
+        </div>
+        <div class="project">
+          <h3>Machine Learning Model for Predicting Customer Churn</h3>
+          <p>Developed a machine learning model to predict customer churn, helping the company reduce churn rate by 15%.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, feel free to reach out via email at rashvi.santosh52@gmail.com.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Rashvi Santosh. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
